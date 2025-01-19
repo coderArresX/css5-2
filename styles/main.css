@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(../fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+a:hover {
+    color: #8CE900;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+
+.container {
+    max-width: 1040px;
+    width: 100%;
+}
+
+body {
+    background-color: #07081A;
+}
+
+header {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #261C51;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+}
+
+.cloudoItem {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+}
+
+.headerContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerMain {
+    display: flex;
+    gap: 64px;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    align-self: center;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 52px;
+    color: #FFFFFF;
+}
+
+.botskin {
+    width: 314px;
+    height: 32px;
+}
+
+.stats {
+    background-color: #242642;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+}
+
+.fourHundrid {
+    color: #8CE900;
+    font-weight: 500px;
+    font-size: 56px;
+    line-height: 60px;
+}
+
+.statsItem {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.statsText {
+    color: #C0C0C0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+}
+
+.footerDescription {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+p {
+   color: #C0C0C0; 
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 24px;
+   max-width: 264px;
+}
+
+.footerMenu {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.iconText {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
